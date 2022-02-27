@@ -7,3 +7,24 @@ the flow application handles by coordinator pattern.
 <p>
   At the first, App runs and fetch data from the service. after that All data can cache on the mongodb. I use realm-MongoDB for caching data.
 </p>
+
+# Architecture
+Based on the clean architecture
+
+<b>Kiliaro</b>
+<br>
+    -------> <b>Application</b> // this folder is screens. for interaction with users
+    </br>
+    <br>
+    -------> <b>APIPlaform</b> // Platform Layer
+    </br>
+    <br>
+    -------> <b>DBPlatform</b> // Platform Layer
+        </br>
+    <br>
+    -------> <b>RepositoryPlatform</b> // Platform Layer
+        </br>
+    <br>
+    -------> <b>Domain</b> // Domain Layer include use cases and entites
+        </br>
+    <br>
