@@ -41,4 +41,17 @@ class AppFlowCoorinator {
         
         nav.present(vc, animated: true)
     }
+    
+    func showAlert(message: String) {
+        let alert = UIAlertController(title: "Error",
+                                      message: message,
+                                      preferredStyle: .alert)
+        
+        let actionOK = UIAlertAction(title: "OK",
+                                     style: .default)
+        
+        alert.addAction(actionOK)
+        
+        nav.present(alert, animated: true)
+    }
 }

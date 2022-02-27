@@ -10,8 +10,7 @@ class MediaListViewModel {
     enum State {
         case loading
         case reload
-        case showError
-        case noData
+        case showError(message: String)
     }
     
     private let repo: MediaRepository
@@ -41,7 +40,7 @@ class MediaListViewModel {
                 self?.onChange.onNext(value: .reload)
                 
             case .failure(let error):
-                print(error)
+                self?.onChange.onNext(value: .showError(message: error.message))
             }
         }
     }

@@ -81,7 +81,7 @@ class MediaListVC: UIViewController {
         collection.isHidden = canShow
         loadingView.isHidden = !canShow
     }
-    
+        
     private func subscribe() {
         viewModel
             .onChange
@@ -93,6 +93,9 @@ class MediaListVC: UIViewController {
                 case .reload:
                     self?.showLoading(canShow: false)
                     self?.collection.reloadData()
+                    
+                case .showError(let message):
+                    self?.coordinator?.showAlert(message: message)
                     
                 default: break
                 }
