@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SharedMediaService: SharedMediaServiceable {
+struct SharedMediaService: SharedMediaServiceable, URLSessionServiceable {
     
     private var session = URLSession.shared
     
@@ -24,23 +24,6 @@ struct SharedMediaService: SharedMediaServiceable {
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         
-        session.dataTask(with: request) { data, response, error in
-            
-            if let err = error {
-                completion(Result.failure(.unknown(err: err)))
-                return
-            }
-            
-            guard
-                let d = data,
-                let model = try? JSONDecoder().decode([Media].self, from: d)
-            else {
-                completion(Result.failure(.notValidModel))
-                return
-            }
-            
-            completion(Result.success(model))
-        }
-        .resume()
+        execute(request: request, completion: completion)
     }
 }

@@ -22,6 +22,7 @@
 		C4583D7F27CB4DB900CAA76C /* TimeStampDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4583D7E27CB4DB900CAA76C /* TimeStampDAL.swift */; };
 		C4583D8127CB506F00CAA76C /* TimeStampServiceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4583D8027CB506F00CAA76C /* TimeStampServiceable.swift */; };
 		C4583D8327CB5AC100CAA76C /* TimeStampDALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4583D8227CB5AC100CAA76C /* TimeStampDALTests.swift */; };
+		C4583D8527CB639400CAA76C /* URLSessionServiceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4583D8427CB639400CAA76C /* URLSessionServiceable.swift */; };
 		C4F4F6AE27C805E20066A36C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4F6AD27C805E20066A36C /* AppDelegate.swift */; };
 		C4F4F6B027C805E20066A36C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4F6AF27C805E20066A36C /* SceneDelegate.swift */; };
 		C4F4F6B227C805E20066A36C /* MediaListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4F6B127C805E20066A36C /* MediaListVC.swift */; };
@@ -70,6 +71,7 @@
 		C4583D7E27CB4DB900CAA76C /* TimeStampDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStampDAL.swift; sourceTree = "<group>"; };
 		C4583D8027CB506F00CAA76C /* TimeStampServiceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStampServiceable.swift; sourceTree = "<group>"; };
 		C4583D8227CB5AC100CAA76C /* TimeStampDALTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStampDALTests.swift; sourceTree = "<group>"; };
+		C4583D8427CB639400CAA76C /* URLSessionServiceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionServiceable.swift; sourceTree = "<group>"; };
 		C4F4F6AA27C805E20066A36C /* KiliaroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiliaroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F4F6AD27C805E20066A36C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4F4F6AF27C805E20066A36C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				C4F4F6E227C8076F0066A36C /* SharedMediaService.swift */,
+				C4583D8427CB639400CAA76C /* URLSessionServiceable.swift */,
 				C4F4F6E027C806520066A36C /* APIRoute.swift */,
 				C4F4F6EA27C80CB80066A36C /* APIError.swift */,
 			);
@@ -473,6 +476,7 @@
 				C4F4F6EB27C80CB80066A36C /* APIError.swift in Sources */,
 				C4583D7F27CB4DB900CAA76C /* TimeStampDAL.swift in Sources */,
 				C4F4F6B027C805E20066A36C /* SceneDelegate.swift in Sources */,
+				C4583D8527CB639400CAA76C /* URLSessionServiceable.swift in Sources */,
 				C43EBAC927CA585200156F06 /* DBServiceable.swift in Sources */,
 				C43EBAB427CA2B3300156F06 /* AppFlowCoordinator.swift in Sources */,
 				C4F4F6EE27C80DEB0066A36C /* MediaRepository.swift in Sources */,
