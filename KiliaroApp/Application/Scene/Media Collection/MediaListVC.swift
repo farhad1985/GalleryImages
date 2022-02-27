@@ -96,7 +96,8 @@ class MediaListVC: UIViewController {
                     
                 case .showError(let message):
                     self?.coordinator?.showAlert(message: message)
-                    
+                    self?.showLoading(canShow: false)
+
                 default: break
                 }
             }

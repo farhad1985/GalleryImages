@@ -20,7 +20,7 @@ enum APIError: LocalizedError {
         case .notValidURL:
             return "Your base url is not valid"
             
-        case .unknown(let err)
+        case .unknown(let err):
             return err.localizedDescription
         }
     }
