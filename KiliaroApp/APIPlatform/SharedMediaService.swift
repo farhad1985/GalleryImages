@@ -22,7 +22,7 @@ struct SharedMediaService: SharedMediaServiceable, URLSessionServiceable {
         }
         
         var request = URLRequest(url: url)
-        request.httpMethod = "GET"
+        request.httpMethod = HttpMethodType.get.rawValue
         
         execute(request: request, completion: completion)
     }

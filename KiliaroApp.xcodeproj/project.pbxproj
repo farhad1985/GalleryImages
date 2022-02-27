@@ -23,6 +23,7 @@
 		C4583D8127CB506F00CAA76C /* TimeStampServiceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4583D8027CB506F00CAA76C /* TimeStampServiceable.swift */; };
 		C4583D8327CB5AC100CAA76C /* TimeStampDALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4583D8227CB5AC100CAA76C /* TimeStampDALTests.swift */; };
 		C4583D8527CB639400CAA76C /* URLSessionServiceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4583D8427CB639400CAA76C /* URLSessionServiceable.swift */; };
+		C4583D8727CB65C100CAA76C /* HttpMethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4583D8627CB65C100CAA76C /* HttpMethodType.swift */; };
 		C4F4F6AE27C805E20066A36C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4F6AD27C805E20066A36C /* AppDelegate.swift */; };
 		C4F4F6B027C805E20066A36C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4F6AF27C805E20066A36C /* SceneDelegate.swift */; };
 		C4F4F6B227C805E20066A36C /* MediaListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4F6B127C805E20066A36C /* MediaListVC.swift */; };
@@ -72,6 +73,7 @@
 		C4583D8027CB506F00CAA76C /* TimeStampServiceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStampServiceable.swift; sourceTree = "<group>"; };
 		C4583D8227CB5AC100CAA76C /* TimeStampDALTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStampDALTests.swift; sourceTree = "<group>"; };
 		C4583D8427CB639400CAA76C /* URLSessionServiceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionServiceable.swift; sourceTree = "<group>"; };
+		C4583D8627CB65C100CAA76C /* HttpMethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethodType.swift; sourceTree = "<group>"; };
 		C4F4F6AA27C805E20066A36C /* KiliaroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiliaroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F4F6AD27C805E20066A36C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4F4F6AF27C805E20066A36C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				C4583D8427CB639400CAA76C /* URLSessionServiceable.swift */,
 				C4F4F6E027C806520066A36C /* APIRoute.swift */,
 				C4F4F6EA27C80CB80066A36C /* APIError.swift */,
+				C4583D8627CB65C100CAA76C /* HttpMethodType.swift */,
 			);
 			path = APIPlatform;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			files = (
 				C4F4F6B227C805E20066A36C /* MediaListVC.swift in Sources */,
 				C4F4F6AE27C805E20066A36C /* AppDelegate.swift in Sources */,
+				C4583D8727CB65C100CAA76C /* HttpMethodType.swift in Sources */,
 				C43EBABA27CA46BD00156F06 /* ExString.swift in Sources */,
 				C43EBAAB27CA122300156F06 /* ThumbNailCell.swift in Sources */,
 				C4F4F6E727C80BDE0066A36C /* Media.swift in Sources */,
