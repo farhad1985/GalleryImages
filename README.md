@@ -1,4 +1,5 @@
 # GalleryImages
+<img src='Screenshot/pic.png' width=300 />
 This app can show images on the screen. I've created it based on the clean architecture and MVVM-C pattern.
 <br>
 the flow application handles by coordinator pattern.
