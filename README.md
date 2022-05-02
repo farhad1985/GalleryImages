@@ -14,7 +14,7 @@ Based on the clean architecture
 
 <b>Kiliaro</b>
 <br>
-    -------> <b>Application</b> // this folder is screens. for interaction with users
+    -------> <b>Application</b> // UI elements and pages
     </br>
     <br>
     -------> <b>APIPlaform</b> // Platform Layer
